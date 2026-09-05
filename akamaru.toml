@@ -1,0 +1,15 @@
+# pyproject.toml
+
+[build-system]
+requires = ["scapy"]
+#build-backend = "setuptools.build_meta"
+
+[project]
+name = "akamaru"
+version = "0.0.1"
+description = "Simple CLI Network Analyzer"
+readme = "README.md"
+#authors = [{ name = "BLANK", email = "BLANK" }]
+
+[project.scripts]
+akamaru = "akamaru__main__:main"
